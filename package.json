@@ -1,10 +1,11 @@
 {
   "name": "skill-tracker-mvp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "SkillTracker MVP — деконструкция навыков, правило 20 часов, Помодоро-сессии, интервальные повторения",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
   },
   "keywords": [],
   "author": "",
